@@ -3,17 +3,18 @@
 # GIVEN
 
 # SB001 has both fear and happy
-mkdir -p SB001/T4/model/tgng
-echo "1.234" > SB001/T4/model/tgng/happy_lev1_mod1.feat
-echo "0.138" > SB001/T4/model/tgng/fear_lev1_mod1.feat
+mkdir -p SB001/T4/model/tgng/happy_lev1_mod1.feat
+mkdir -p SB001/T4/model/tgng/fear_lev1_mod1.feat
+echo "1.234" > SB001/T4/model/tgng/happy_lev1_mod1.feat/betavalue.txt
+echo "0.138" > SB001/T4/model/tgng/fear_lev1_mod1.feat/betavalue.txt
 
 # SB002 has only fear
-mkdir -p SB002/T4/model/tgng
-echo "0.789" > SB002/T4/model/tgng/fear_lev1_mod1.feat
+mkdir -p SB002/T4/model/tgng/fear_lev1_mod1.feat
+echo "0.789" > SB002/T4/model/tgng/fear_lev1_mod1.feat/betavalue.txt
 
 # SB003 has only happy
-mkdir -p SB003/T4/model/tgng
-echo "0.456" > SB003/T4/model/tgng/happy_lev1_mod1.feat
+mkdir -p SB003/T4/model/tgng/happy_lev1_mod1.feat
+echo "0.456" > SB003/T4/model/tgng/happy_lev1_mod1.feat/betavalue.txt
 
 # SB004 has neither
 mkdir -p SB004/T4/model/tgng
