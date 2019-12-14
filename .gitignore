@@ -1,0 +1,16 @@
+# venv
+venv/
+
+# test data
+SB*
+
+# python
+__init__.py
+__pycache__/
+
+# emacs
+*~
+
+# cvs
+
+*.csv
